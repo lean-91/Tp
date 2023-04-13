@@ -1,9 +1,9 @@
-// Obtener elementos del DOM
+//  elementos del DOM
 const caja = document.querySelector('.caja');
 const dropdown = document.querySelector('.dropdown');
 const dropdownContent = document.querySelector('.dropdown-content');
 
-// Mostrar / Ocultar caja al hacer clic en la imagen
+// Mostrar / Ocultar caja 
 document.querySelector('img').addEventListener('click', () => {
     caja.style.display = 'block';
 });
@@ -12,7 +12,7 @@ caja.addEventListener('click', () => {
     caja.style.display = 'none';
 });
 
-// Mostrar / Ocultar menú desplegable al hacer clic en "Autos"
+// Mostrar / Ocultar menú desplegable 
 dropdown.addEventListener('click', () => {
     dropdownContent.classList.toggle('show');
 });

@@ -26,8 +26,7 @@ function Validar(){
 		msg=msg+"\nEl E-mail es incorrecto";
 	if(msg=="")
 	{	alert("Datos enviados correctamente\nGracias por suscribirse! ");
-        //document.getElementById("suscripcion").action="contacto.html";
-	   	return true;
+     	return true;
 	}
 	else
 	{	alert("Datos incorrectos: \n " + msg);

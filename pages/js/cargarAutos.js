@@ -1,11 +1,3 @@
-/*------------
-fetch("../BD/Autos.json")
-.then(response => {
-   return response.json();
-})
-.then(data => console.log(data));
-
-*/
 let Autos
 
 const CatalogoContainer=document.getElementById("CatalogoContainer");

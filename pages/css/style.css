@@ -69,12 +69,12 @@ a.active,a:hover{
   color: white;
   padding-top: 15px;
   text-align: center;
-  background-image: url("/img/FondoMain.jpg"); /* The image used */
-  background-color: #000000; /* Used if the image is unavailable */
-  height: 400px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
+  background-image: url("/img/FondoMain.jpg"); 
+  background-color: #000000;
+  height: 400px; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
 }
 /*estilo formulario registro/subcripcion*/
 .formSub{
